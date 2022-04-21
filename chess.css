@@ -1,0 +1,40 @@
+.box {
+    height: 8rem;
+    width: 8rem;
+    text-align: center;
+    border: 2px solid #E9D5DA;
+    /* padding: 0; */
+    color: white;
+    font-weight: 900;
+    font-size: 2.5rem;
+    /* border-radius: 50%; */
+}
+
+.parent {
+    /* box-sizing: border-box; */
+    /* border: 4px solid #E9D5DA; */
+    margin: auto;
+    margin-top: 5rem;
+    color: white;
+    padding: 0;
+    /* border: 0; */
+    width: 69rem;
+    height: 64rem;
+    display: flex;
+    border-radius: 25px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+body {
+    color: white;
+    background-color: #5c3236;
+    font-family: 'Pangolin', cursive;
+    font-size: 20px;
+    background-image: url('images/map1.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
